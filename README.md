@@ -58,14 +58,14 @@ A collection of linux sysadmin/devops interview questions. Feel free to contribu
 * What is the name and the UID of the administrator user?  ```Admin user is root and UID is 0.```
 * How to list all files, including hidden ones, in a directory?   ```ls -ltrh ```
 * What is the Unix/Linux command to remove a directory and its contents?  ```rm -r ```
-* Which command will show you free/used memory? Does free memory exist on Linux?
-* How to search for the string "my konfu is the best" in files of a directory recursively?
-* How to connect to a remote server or what is SSH?
-* How to get all environment variables and how can you use them?
-* I get "command not found" when I run ```ifconfig -a```. What can be wrong?
-* What happens if I type TAB-TAB?
-* What command will show the available disk space on the Unix/Linux system?
-* What commands do you know that can be used to check DNS records?
+* Which command will show you free/used memory? Does free memory exist on Linux?  ``` free -h ```
+* How to search for the string "my konfu is the best" in files of a directory recursively? ``` grep -r "my konfu is the best" ```
+* How to connect to a remote server or what is SSH?   ``` SSH hostname ```
+* How to get all environment variables and how can you use them?  ``` printenv ```
+* I get "command not found" when I run ```ifconfig -a```. What can be wrong? ``` iproute2 package is not installed ```
+* What happens if I type TAB-TAB? ``` autocompletion of that command  ```
+* What command will show the available disk space on the Unix/Linux system? ``` df -h ```
+* What commands do you know that can be used to check DNS records?  
 * What Unix/Linux commands will alter a files ownership, files permissions?
 * What does ```chmod +x FILENAME``` do?
 * What does the permission 0750 on a file mean?
