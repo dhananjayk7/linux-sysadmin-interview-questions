@@ -65,22 +65,22 @@ A collection of linux sysadmin/devops interview questions. Feel free to contribu
 * I get "command not found" when I run ```ifconfig -a```. What can be wrong? ``` iproute2 package is not installed ```
 * What happens if I type TAB-TAB? ``` autocompletion of that command  ```
 * What command will show the available disk space on the Unix/Linux system? ``` df -h ```
-* What commands do you know that can be used to check DNS records?  
-* What Unix/Linux commands will alter a files ownership, files permissions?
-* What does ```chmod +x FILENAME``` do?
-* What does the permission 0750 on a file mean?
+* What commands do you know that can be used to check DNS records?  ``` Using nslookup command```
+* What Unix/Linux commands will alter a files ownership, files permissions? ``` chown ```
+* What does ```chmod +x FILENAME``` do? ``` Give the file executable permissions```
+* What does the permission 0750 on a file mean? 
 * What does the permission 0750 on a directory mean?
-* How to add a new system user without login permissions?
-* How to add/remove a group from a user?
-* What is a bash alias?
+* How to add a new system user without login permissions? ``` sudo useradd username ```
+* How to add/remove a group from a user? 
+* What is a bash alias? 
 * How do you set the mail address of the root/a user?
-* What does CTRL-c do?
-* What does CTRL-d do?
+* What does CTRL-c do? ``` stop the current running process ```
+* What does CTRL-d do? 
 * What does CTRL-z do?
 * What is in /etc/services?
 * How to redirect STDOUT and STDERR in bash? (> /dev/null 2>&1)
 * What is the difference between UNIX and Linux.
-* What is the difference between Telnet and SSH?
+* What is the difference between Telnet and SSH? ``` Telnet is not secure and runs on port 23, SSH is secure shell on port 22 ```
 * Explain the three load averages and what do they indicate. What command can be used to view the load averages?
 * Can you name a lower-case letter that is not a valid option for GNU ```ls```?
 * What is a Linux kernel module?
